@@ -1,0 +1,8 @@
+def get_users():
+    users = sys.get_users()
+    for user in users.items():
+        print(f"{user}")
+
+    return
+
+get_users()

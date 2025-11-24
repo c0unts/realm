@@ -1,0 +1,5 @@
+name: Get users
+description: Get a list of all local users
+author: c0unt
+support_model: FIRST_PARTY
+tactic: RECON
