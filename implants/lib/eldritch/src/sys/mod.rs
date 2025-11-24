@@ -85,7 +85,7 @@ fn methods(builder: &mut MethodsBuilder) {
     }
 
     #[allow(unused_variables)]
-    fn get_users<'v>(this: &SysLibrary, starlark_heap: &'v Heap) -> anyhow::Result<Dict<'v>> {
+    fn get_users<'v>(this: &SysLibrary, starlark_heap: &'v Heap) -> anyhow::Result<Vec<Dict<'v>>> {
         get_users_impl::get_users(starlark_heap)
     }
 
