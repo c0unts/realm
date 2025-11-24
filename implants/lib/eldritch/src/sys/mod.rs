@@ -7,6 +7,7 @@ mod get_os_impl;
 mod get_pid_impl;
 mod get_reg_impl;
 mod get_user_impl;
+mod get_users_impl;
 mod hostname_impl;
 mod is_bsd_impl;
 mod is_linux_impl;
