@@ -22,8 +22,7 @@ pub fn get_users(starlark_heap: &Heap) -> Result<Dict> {
             Vec::from(user.groups()),
             Vec<_>
         );
-        Ok(());
     }
 
-    return Ok(dict_res);
+    Ok(dict_res)
 }
